@@ -1,0 +1,77 @@
+[gd_scene format=3 uid="uid://m77fjn8fdbra"]
+
+[ext_resource type="Texture2D" uid="uid://d32gcjvulslml" path="res://Resources/SpriteSheets/base_paper_alice.png" id="1_7ckhp"]
+[ext_resource type="Texture2D" uid="uid://dpbehg5qvufr7" path="res://Resources/SpriteSheets/Reference.png" id="2_4u820"]
+
+[node name="AliceBaseRoot" type="Node2D" unique_id=1227343146]
+
+[node name="Sprites" type="Node2D" parent="." unique_id=2111053909]
+
+[node name="head" type="Sprite2D" parent="Sprites" unique_id=1613468679]
+position = Vector2(12.999996, -172)
+rotation = -0.27010214
+scale = Vector2(0.391018, 0.391018)
+texture = ExtResource("1_7ckhp")
+offset = Vector2(-13, -106)
+region_enabled = true
+region_rect = Rect2(18, 18, 194, 243)
+metadata/_edit_group_ = true
+
+[node name="ribbon_curved" type="Sprite2D" parent="Sprites" unique_id=319536498]
+position = Vector2(-15.999997, -101)
+rotation = 0.40001166
+scale = Vector2(0.3542215, 0.32457438)
+texture = ExtResource("1_7ckhp")
+offset = Vector2(129.03256, 47.783234)
+region_enabled = true
+region_rect = Rect2(617, 141, 287, 134)
+metadata/_edit_group_ = true
+
+[node name="ribbon_straight" type="Sprite2D" parent="Sprites" unique_id=31891601]
+position = Vector2(49.00001, -87.000015)
+rotation = 0.012043834
+scale = Vector2(0.4089054, 0.38641083)
+texture = ExtResource("1_7ckhp")
+region_enabled = true
+region_rect = Rect2(605, 23, 378, 94)
+metadata/_edit_group_ = true
+
+[node name="bow" type="Sprite2D" parent="Sprites" unique_id=390209393]
+position = Vector2(-12, -98.00001)
+rotation = 0.34681967
+scale = Vector2(0.39217928, 0.39217928)
+texture = ExtResource("1_7ckhp")
+offset = Vector2(47.523064, 5.8640594)
+region_enabled = true
+region_rect = Rect2(429, 21, 123, 171)
+metadata/_edit_group_ = true
+
+[node name="chest" type="Sprite2D" parent="Sprites" unique_id=52389917]
+position = Vector2(-39, -61)
+rotation = 0.32514006
+scale = Vector2(0.35205302, 0.35205302)
+texture = ExtResource("1_7ckhp")
+offset = Vector2(-1.8484039, -170.05316)
+region_enabled = true
+region_rect = Rect2(17, 283, 179, 404)
+metadata/_edit_group_ = true
+
+[node name="waist" type="Sprite2D" parent="Sprites" unique_id=2108813874]
+texture = ExtResource("1_7ckhp")
+region_enabled = true
+metadata/_edit_group_ = true
+
+[node name="hair" type="Sprite2D" parent="Sprites" unique_id=1508962248]
+position = Vector2(-1.9999933, -241)
+rotation = 0.655466
+scale = Vector2(0.3965509, 0.3965509)
+texture = ExtResource("1_7ckhp")
+offset = Vector2(137.6181, 29.458832)
+region_enabled = true
+region_rect = Rect2(237, 233, 349, 184)
+metadata/_edit_group_ = true
+
+[node name="Reference" type="Sprite2D" parent="." unique_id=1267656665]
+modulate = Color(1, 1, 1, 0.58431375)
+z_index = 1
+texture = ExtResource("2_4u820")
