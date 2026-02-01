@@ -1,16 +1,8 @@
 [gd_scene format=3 uid="uid://06e76w4nlymy"]
 
-[ext_resource type="Texture2D" uid="uid://dpbehg5qvufr7" path="res://Resources/SpriteSheets/Reference.png" id="1_xtxh4"]
 [ext_resource type="Texture2D" uid="uid://b8o2mer7c4niw" path="res://Resources/SpriteSheets/steam_dress_alice.png" id="2_4dmmc"]
 
 [node name="AliceBaseRoot" type="Node2D" unique_id=1465672284]
-
-[node name="Reference" type="Sprite2D" parent="." unique_id=459410044]
-visible = false
-modulate = Color(1, 1, 1, 0.8039216)
-z_index = 1
-position = Vector2(409, 20)
-texture = ExtResource("1_xtxh4")
 
 [node name="Sprites" type="Node" parent="." unique_id=249119288]
 
@@ -285,7 +277,7 @@ position = Vector2(-15, -68)
 rest = Transform2D(1, 0, 0, 1, -15, -68)
 auto_calculate_length_and_angle = false
 length = 102.276
-bone_angle = 51.701977
+bone_angle = 51.701973
 
 [node name="bow" type="Bone2D" parent="Skeleton2D/waist/chest" unique_id=183567722]
 position = Vector2(25, -38)

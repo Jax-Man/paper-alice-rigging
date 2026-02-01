@@ -1,16 +1,8 @@
 [gd_scene format=3 uid="uid://bgfpnomf2h4oi"]
 
-[ext_resource type="Texture2D" uid="uid://dpbehg5qvufr7" path="res://Resources/SpriteSheets/Reference.png" id="1_a451f"]
 [ext_resource type="Texture2D" uid="uid://cild8pfh0nngc" path="res://Resources/SpriteSheets/miss_stitsched_alice.png" id="2_a451f"]
 
 [node name="AliceBaseRoot" type="Node2D" unique_id=1465672284]
-
-[node name="Reference" type="Sprite2D" parent="." unique_id=459410044]
-visible = false
-modulate = Color(1, 1, 1, 0.8039216)
-z_index = 1
-position = Vector2(409, 20)
-texture = ExtResource("1_a451f")
 
 [node name="Sprites" type="Node" parent="." unique_id=249119288]
 
