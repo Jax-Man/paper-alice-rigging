@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://df25lo60ktklu"
-path="res://.godot/imported/creepy_white_alice.png-c671b2d0b64a7fc485b4804ca870f657.ctex"
+path="res://.godot/imported/hysteria_alice.png-f31501185bcc49f5ca75ff92abb22893.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Resources/SpriteSheets/creepy_white_alice.png"
-dest_files=["res://.godot/imported/creepy_white_alice.png-c671b2d0b64a7fc485b4804ca870f657.ctex"]
+source_file="res://Resources/SpriteSheets/hysteria_alice.png"
+dest_files=["res://.godot/imported/hysteria_alice.png-f31501185bcc49f5ca75ff92abb22893.ctex"]
 
 [params]
 

@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://dwxpm56w6dvx6" path="res://Resources/SpriteSheets/siren_alice.png" id="3_es2uf"]
 [ext_resource type="Texture2D" uid="uid://d1wk0f1wl3qoj" path="res://Resources/SpriteSheets/royal_suit_alice.png" id="4_r088e"]
 [ext_resource type="Texture2D" uid="uid://b8o2mer7c4niw" path="res://Resources/SpriteSheets/steam_dress_alice.png" id="6_l38mb"]
-[ext_resource type="Texture2D" uid="uid://df25lo60ktklu" path="res://Resources/SpriteSheets/creepy_white_alice.png" id="7_dw21k"]
+[ext_resource type="Texture2D" uid="uid://df25lo60ktklu" path="res://Resources/SpriteSheets/hysteria_alice.png" id="7_dw21k"]
 [ext_resource type="Texture2D" uid="uid://clrpsdpkqm3ot" path="res://Resources/SpriteSheets/dark_blue_dress_alice.png" id="8_wbaq6"]
 
 [node name="AliceBaseRoot" type="Node2D" unique_id=1465672284]
